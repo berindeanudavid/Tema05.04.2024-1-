@@ -23,7 +23,7 @@ public class Product {
         return false;
     }
     public String toString(){
-        return name;
+        return "(cod: "+code+") "+name+" -compensat "+(1.00-coefficient)*100+"%- cu pretul final de: "+price+" lei. Cantitate disponibila in depozit: "+quantity+".";
     }
     public void addToDeposit(){
         boolean isNot=true;
